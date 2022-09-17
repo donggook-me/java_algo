@@ -19,9 +19,5 @@ public class backjoon_1076 {
         long combined_value = Long.parseLong(first_value + second_value + ("0".repeat(color_list.indexOf(third_color) )));
         System.out.println(combined_value);
 
-//        System.out.println((int) Math.pow(10, color_list.indexOf(third_color)));
-//        int result = combined_value * (int) Math.pow(10, color_list.indexOf(third_color));
-//
-//        System.out.println(result);
 
     }}
